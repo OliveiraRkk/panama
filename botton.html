@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mudar cor do parágrafo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <p id="texto">Clique no botão para mudar minha cor!</p>
+  <button type="submit" style="background-color: wheat;" onclick="mudarCor()" class="botao">
+    Mudar Cor
+   </button>
+
+  <script>
+    function mudarCor() {
+      document.getElementById("texto").style.color = "crimson";
+    }
+  </script>
+
+ 
+
+</body>
+</html>
